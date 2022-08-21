@@ -1,0 +1,11 @@
+.input-selectort {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    &__error {
+        position: absolute;
+        bottom: -14px;
+        font-size: 10px;
+        color: red;
+    }
+}

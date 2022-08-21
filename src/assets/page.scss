@@ -1,0 +1,55 @@
+.page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    header {
+        text-align: center;
+            h2, a {
+                color: mix(#fff, #e7d5db, 85%);
+                font-size: 40px;
+                font-weight: 900;
+                text-shadow: 
+                    -0.0075em 0.0075em 0 mix(#fff, #e7d5db, 94%),
+                    0.005em 0.005em 0 mix(#fff, #e7d5db, 60%),
+                    0.01em 0.01em 0 mix(#fff, #e7d5db, 62%), 
+                    0.015em 0.015em mix(#fff, #e7d5db, 64%), 
+                    0.02em 0.02em 0 mix(#fff, #e7d5db, 66%), 
+                    0.025em 0.025em 0 mix(#fff, #e7d5db, 68%),
+                    0.03em 0.03em 0 mix(#fff, #e7d5db, 70%),
+                    0.035em 0.035em 0 mix(#fff, #e7d5db, 72%);
+            }
+
+            a {
+                font-size: 25px;
+            }
+    }
+
+    main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section {
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__btn {
+        margin: 15px 0;
+    }
+
+    footer {
+        display: flex;
+        button {
+            min-width: 150px;
+            margin: 10px;
+        }
+    }
+}

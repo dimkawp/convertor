@@ -1,0 +1,19 @@
+.list {
+    padding: 10px 0;
+    min-width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+
+    &__item {
+        min-width: 175px;
+        margin: 5px;
+        padding: 5px;
+        display: flex;
+        box-shadow: 1px 1px 20px white;
+    }
+
+    &__item-name {
+        min-width: 100px;
+
+    }
+}

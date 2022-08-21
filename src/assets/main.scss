@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    background: linear-gradient(-45deg, #f1eceb, #d7dda4, #99cfe2, #a9aaaa);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@import './page.scss';
+@import './form.scss';
+@import './input.scss';
+@import './list.scss';
